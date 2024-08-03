@@ -1,0 +1,19 @@
+/* src/styles/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  background-color: #121212;
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-container {
+  padding-top: 20px;
+}
+
+.investor-title {
+  color: #90caf9;
+  text-align: center;
+  margin-bottom: 20px;
+}

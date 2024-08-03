@@ -1,0 +1,40 @@
+/* src/styles/PitchCard.css */
+.pitch-card {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.pitch-title {
+  color: #90caf9;
+}
+
+.pitch-text {
+  color: #f48fb1;
+}
+
+.chart-container {
+  height: 150px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.chart-container canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.ranking-text {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.view-details-button {
+  background-color: #90caf9;
+  color: #1e1e1e;
+  margin-top: 10px;
+}
