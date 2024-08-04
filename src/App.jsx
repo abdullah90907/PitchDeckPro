@@ -1,14 +1,13 @@
-// src/App.js
 import React from 'react';
-import Dashboard from './components/Dashboard';
-import './styles/App.css';
+import HomePage from './HomePage';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <Dashboard />
+    <div className="App">
+      <HomePage />
     </div>
+
   );
-};
+}
 
 export default App;

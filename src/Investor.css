@@ -1,0 +1,81 @@
+.investor-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 1rem;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links li {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  .content {
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .startup-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+  }
+  
+  .startup-table th, .startup-table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+  }
+  
+  .startup-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .submission-link {
+    color: orange;
+    text-decoration: none;
+  }
+  
+  .submission-link:hover {
+    text-decoration: underline;
+  }
+  
+  .add-startup-btn {
+    background-color: orange;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
