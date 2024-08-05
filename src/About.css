@@ -21,12 +21,12 @@
 }
 
 .article-image {
-  width: 5%; /* Adjust width to be smaller */
+  width: 80%; /* Reduce width to make the image smaller */
   height: auto;
   margin-bottom: 1rem;
-  max-width: 10px; /* Reduce the maximum width */
+  max-width: 400px; /* Reduce the maximum width */
   display: block;
-  margin-left: auto;
+  margin-left: 10px;
   margin-right: auto;
 }
 

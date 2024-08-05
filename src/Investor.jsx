@@ -9,9 +9,12 @@ function Investor() {
         <div className="logo">PitchDeckPro</div>
         <ul className="nav-links">
           <li><Link to="/">Home</Link></li>
-          <li>Investor</li>
-          <li>Services</li>
-          <li>Contact</li>
+          <li><Link to="/EntrepreneurDashboard">Entrepreneur</Link></li>
+          <li><Link to="/investor">Investor</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li>
+            <Link to="/signin">Sign In</Link>
+          </li>
         </ul>
       </nav>
 
@@ -31,13 +34,13 @@ function Investor() {
             <tr>
               <td>Startup A</td>
               <td>2024-07-15</td>
-              <td>85</td>
+              <td>7</td>
               <td><Link to="/submission/1" className="submission-link">View Submission</Link></td>
             </tr>
             <tr>
               <td>Startup B</td>
               <td>2024-07-18</td>
-              <td>90</td>
+              <td>9</td>
               <td><Link to="/submission/2" className="submission-link">View Submission</Link></td>
             </tr>
             {/* Add more rows as needed */}
